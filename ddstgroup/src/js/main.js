@@ -2,17 +2,16 @@
 
 //declare
 const percentContainer = document.querySelectorAll('.progress__text'),
-    prog1 = document.getElementById('prog1'),
-    prog2 = document.getElementById('prog2'),
-    prog3 = document.getElementById('prog3'),
-    progress = document.querySelector('.progress'),
-    progDone = document.querySelector('.progress--done'),
-    report = document.querySelector('.report');
+      prog1 = document.getElementById('prog1'),
+      prog2 = document.getElementById('prog2'),
+      prog3 = document.getElementById('prog3'),
+      progress = document.querySelector('.progress'),
+      progDone = document.querySelector('.progress--done'),
+      report = document.querySelector('.report');
 let percent = 0;
 
 
-
-//animate  show/hide content
+//animate content function
 let animateElem = function (elem, condition) {
     elem.classList.add(condition);
     setTimeout(function () {
@@ -20,7 +19,7 @@ let animateElem = function (elem, condition) {
     }, 100);
 }
 
-//get percents
+//get percents and show/hide content
 let percStatus = setInterval(function () {
     percent++;
     percentContainer.forEach(

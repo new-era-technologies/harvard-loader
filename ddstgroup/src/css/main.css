@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
     width: 340px;
     margin: 0 auto;
@@ -31,7 +32,7 @@
 
 .progress--done {
     padding-bottom: 21px;
-    transition: .2s;
+    transition: 0.2s;
     visibility: hidden;
     opacity: 0;
     display: none;
@@ -54,12 +55,12 @@
 }
 
 @-webkit-keyframes spinback {
-  0% {
-    -webkit-transform: rotate(360deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-  }
+    0% {
+        -webkit-transform: rotate(360deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
 }
 
 .progress__wheel > img:nth-child(1) {
@@ -107,7 +108,7 @@
     margin-top: 22px;
     display: flex;
     align-items: center;
-    transition: .2s;
+    transition: 0.2s;
     visibility: hidden;
     opacity: 0;
     display: none;
@@ -148,7 +149,7 @@
 
 .report {
     margin: 22px auto;
-    transition: .2s;
+    transition: 0.2s;
     visibility: hidden;
     opacity: 0;
     display: none;
