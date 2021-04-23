@@ -31,6 +31,10 @@
 
 .progress--done {
     padding-bottom: 21px;
+    transition: .2s;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
 }
 
 .progress__wheel {
@@ -75,9 +79,9 @@
 }
 
 .progress__text {
-    width: 80px;
+    width: 110px;
     position: absolute;
-    left: calc(50% - 40px);
+    left: calc(50% - 50px);
     top: calc(50% - 25px);
     font-family: Verdana;
     font-style: normal;
@@ -103,6 +107,10 @@
     margin-top: 22px;
     display: flex;
     align-items: center;
+    transition: .2s;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
 }
 
 .progress__item > img {
@@ -140,6 +148,10 @@
 
 .report {
     margin: 22px auto;
+    transition: .2s;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
 }
 
 .report__text {
@@ -173,4 +185,17 @@
     border: none;
     border-radius: 15px;
     outline: none;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
 }
