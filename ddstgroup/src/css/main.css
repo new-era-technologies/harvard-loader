@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo > img {
+    width: 230px;
+}
+
+.progress {
+    width: 340px;
+    margin-top: 40px;
+    padding-top: 21px;
+    padding-bottom: 41px;
+    background: #ffffff;
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.progress--done {
+    padding-bottom: 21px;
+}
+
+.progress__wheel {
+    width: 229px;
+    height: 230px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.progress__img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress__text {
+    width: 80px;
+    position: absolute;
+    left: calc(50% - 40px);
+    top: calc(50% - 25px);
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #4aa44a;
+}
+
+.progress__messages {
+    margin-top: 10px;
+    margin-left: 36px;
+}
+
+.progress__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.progress__item {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.progress__item > img {
+    width: 22px;
+    height: 22px;
+    margin-right: 6px;
+}
+
+.progress__item > p {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.progress__message {
+    margin: 26px auto 0;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.progress__message:last-of-type {
+    width: 320px;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.report {
+    margin: 22px auto;
+}
+
+.report__text {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.report__button {
+    width: 310px;
+    height: 57px;
+    margin: 22px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    background: #339933;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
