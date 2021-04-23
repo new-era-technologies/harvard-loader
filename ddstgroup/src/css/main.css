@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Verdana";
+    src: url("../fonts/verdana/Verdana-Bold.eot");
+    src: url("../fonts/verdana/Verdana-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/verdana/Verdana-Bold.woff") format("woff"),
+        url("../fonts/verdana/Verdana-Bold.woff2") format("woff2"),
+        url("../fonts/verdana/Verdana-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-FFFD;
+}
+
 .container {
     width: 340px;
     margin: 0 auto;
@@ -81,9 +94,9 @@
 }
 
 .progress__text {
-    width: 110px;
+    width: 135px;
     position: absolute;
-    left: calc(50% - 50px);
+    left: calc(50% - 67px);
     top: calc(50% - 25px);
     font-family: Verdana;
     font-style: normal;
